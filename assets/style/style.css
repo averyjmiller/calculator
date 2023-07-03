@@ -54,14 +54,18 @@ body {
 }
 
 .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   width: 90%;
   height: 66%;
   margin: 0 auto;
   margin-bottom: 30px;
-  border: 1px solid black;
 }
 
 .buttons .row {
+  display: flex;
+  gap: 10px;
   height: 20%;
   font-size: 0;
 }
